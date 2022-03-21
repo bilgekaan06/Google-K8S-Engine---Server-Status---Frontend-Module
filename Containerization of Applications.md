@@ -11,8 +11,8 @@ zip -r frontend-app.zip frontend-app/
 
 * The frontend app must run on a web server that's why built a web server in the Dockerfile. [Reference](https://v2.vuejs.org/v2/cookbook/dockerize-vuejs-app.html)
 ## Build the Docker Image
-* In the frontend-app directory, run following command:
+* In the frontend-app directory, to build Dockerfile run the following command:
 ```
-Example: docker build -t myreponame:projectname:tag [docker build](https://docs.docker.com/engine/reference/commandline/build/)
 docker build -t apismellifica/vuejs-frontend:1.0
 ```
+Example: docker build -t myreponame:projectname:tag [docker build](https://docs.docker.com/engine/reference/commandline/build/)
