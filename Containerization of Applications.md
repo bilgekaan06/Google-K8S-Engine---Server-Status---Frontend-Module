@@ -25,7 +25,7 @@ server {
 }
 ```
 
-* Before building step, you must delete node_modules directory.
+* Before the building step, you must delete the node_modules directory.
 * The frontend app must run on a web server that's why built a web server in the Dockerfile. [Reference](https://v2.vuejs.org/v2/cookbook/dockerize-vuejs-app.html)
 ## Build the Docker Image
 * In the frontend-app directory, to build Dockerfile run the following command:
