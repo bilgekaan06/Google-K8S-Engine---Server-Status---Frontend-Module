@@ -37,3 +37,4 @@ docker build -t apismellifica/vuejs-frontend:1.0
 ```
 docker push apismellifica/vuejs-frontend:1.0
 ```
+* Example: docker push registryhost [docker push](https://docs.docker.com/engine/reference/commandline/push/)
