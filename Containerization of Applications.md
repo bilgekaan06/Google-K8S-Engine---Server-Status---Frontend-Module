@@ -6,4 +6,6 @@
 zip -r frontend-app.zip frontend-app/
 ```
 * Change the current working directory to frontend-app then create 2 new files named default.conf and Dockerfile.
-** Before building step, you must delete node_modules directory.
+* Before building step, you must delete node_modules directory.
+
+* The frontend app must run on a web server that's why built a web server in the Dockerfile. [Reference](https://v2.vuejs.org/v2/cookbook/dockerize-vuejs-app.html)
