@@ -1,13 +1,11 @@
 # Google-K8S-Engine-Server-Status-Frontend-Module
 
 # Introduction
-The application shows some server information of the servers or containers it is running on.
+The purpose of this application is to show some server information of the servers or containers its running on.
 # Description
-The application consists of two modules, these are: 
-Frontend Module and Backend Module
-The frontend module was created using Vue. therefore all dependencies were added package.json file, the backend module was created using Java 11 and the backend module was built using Maven therefore all dependencies were added pom.xml file.
+The application consists of two modules which are; Frontend Module and Backend Module. The frontend module was created using Vue. Therefore all dependencies were added to package.json file, the backend module was created using Java 11 and the backend module was built using Maven therefore all dependencies were added to pom.xml file.
 
-To establish communication between frontend and backend was used [Axios JavaScript library](https://axios-http.com/docs/intro). In the frontend side, this function was used:
+I used [Axios JavaScript library](https://axios-http.com/docs/intro) to establish communication between frontend and backend modules. In the frontend side, this function was used:
 ```
 import axios from "axios"
 export default{
@@ -27,7 +25,7 @@ export default{
     
 };
 ```
-In Backend:
+In the backend:
 ```
 @RestController
 public class ServerInfoController {
