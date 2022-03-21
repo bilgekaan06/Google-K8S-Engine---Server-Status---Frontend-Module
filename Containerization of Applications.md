@@ -6,7 +6,7 @@
 ```
 zip -r frontend-app.zip frontend-app/
 ```
-* Change the current working directory to frontend-app then create 2 new files named default.conf and Dockerfile. To access the files are I used [Dockerfile](https://github.com/bilgekaan06/Google-K8S-Engine-Server-Status-Frontend-Module/blob/main/Dockerfile) [default.conf](https://github.com/bilgekaan06/Google-K8S-Engine-Server-Status-Frontend-Module/blob/main/default.conf)
+* Change the current working directory to frontend-app then create 2 new files named default.conf and Dockerfile. To access the files I used click [Dockerfile](https://github.com/bilgekaan06/Google-K8S-Engine-Server-Status-Frontend-Module/blob/main/Dockerfile), [default.conf](https://github.com/bilgekaan06/Google-K8S-Engine-Server-Status-Frontend-Module/blob/main/default.conf)
 
 Let's take a closer look at default.conf 
 ```
@@ -19,7 +19,7 @@ server {
         }
     location /serverinfo
         {
-            proxy_pass http://backend:8080/serverinfo #Reverse proxy to backend application service
+            proxy_pass http://backend:8080/serverinfo #For forwarding requests to backend application service
         }
 
 }
