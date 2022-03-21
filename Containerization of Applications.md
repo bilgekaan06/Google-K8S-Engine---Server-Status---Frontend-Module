@@ -16,3 +16,7 @@ zip -r frontend-app.zip frontend-app/
 docker build -t apismellifica/vuejs-frontend:1.0
 ```
 * Example: docker build -t myreponame:projectname:tag [docker build](https://docs.docker.com/engine/reference/commandline/build/)
+## Push the Image to Docker Hub
+```
+docker push apismellifica/vuejs-frontend:1.0
+```
