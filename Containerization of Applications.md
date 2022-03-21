@@ -30,11 +30,13 @@ server {
 ## Build the Docker Image
 * In the frontend-app directory, to build Dockerfile run the following command:
 ```
-docker build -t apismellifica/vuejs-frontend:1.0
+docker build -t apismellifica/vuejs-frontend:1.5 .
+docker build -t europe-central2-docker.pkg.dev/cyangate/task-repo/vuejs-frontend:1.5 .
 ```
 * Example: docker build -t myreponame:projectname:tag [docker build](https://docs.docker.com/engine/reference/commandline/build/)
 ## Push the Image to Docker Hub
 ```
-docker push apismellifica/vuejs-frontend:1.0
+docker push apismellifica/vuejs-frontend:1.5
+docker push europe-central2-docker.pkg.dev/cyangate/task-repo/vuejs-frontend:1.5
 ```
 * Example: docker push registryhost [docker push](https://docs.docker.com/engine/reference/commandline/push/)
